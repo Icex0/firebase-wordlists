@@ -13,6 +13,26 @@ Callable function names extracted from public JS/TS repos by searching for `.htt
 | `top-500.txt` | 585 | Every name seen in at least 2 different repos. Sorted alphabetically. |
 | `full.txt` | 6,683 | Every extracted name, including one-offs. Alphabetical. Noisy but exhaustive. |
 
+### Top 15 (by distinct repos)
+
+```
+ 70  addAdminRole
+ 65  ext-firestore-stripe-payments-createPortalLink
+ 46  createUser
+ 45  deleteUser
+ 38  createCheckoutSession
+ 35  sendEmail
+ 30  generateUploadUrl
+ 24  getVideos
+ 22  createPaymentIntent
+ 18  deleteUserAccount
+ 17  cancelSubscription
+ 17  createStripeCheckoutSession
+ 17  deleteAccount
+ 17  setUserRole
+ 15  sendMessage
+```
+
 ## Planned
 
 - **Firestore collections** — collection names mined from `collection(...)`, `.collection('...')`, `doc(db, 'collection/...')`.
